@@ -1,0 +1,27 @@
+//parameters
+// function introduction(name){
+//     name = 'Samip'
+//     return `Hi, my name is ${name}.`;
+// }
+
+
+  function introduction(name) {
+    return `Hi, my name is ${name}.`
+  }
+
+  function introductionWithLanguage(name, language) {
+    return `Hi, my name is ${name} and I am learning to program in ${language}.`;
+  }
+
+
+
+
+
+  function introductionWithLanguageOptional(name, language = "JavaScript") {
+    if (language) {
+        return `Hi, my name is ${name} and I am learning to program in ${language}.`;
+    }
+    else {
+        return `Hi, my name is ${name} and I am learning to program in JavaScript.`;
+    }
+  }
